@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.a52323.ycysztest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/aa"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Room1">
+        </activity>
+        <activity android:name=".Room1a">
+        </activity>
+        <activity android:name=".Room1b">
+        </activity>
+        <activity android:name=".Room1c">
+        </activity>
+        <activity android:name=".Room2">
+        </activity>
+        <activity android:name=".Room2a">
+        </activity>
+        <activity android:name=".Room2b">
+        </activity>
+        <activity android:name=".Room2c">
+        </activity>
+        <activity android:name=".Room3">
+        </activity>
+        <activity android:name=".Room3a">
+        </activity>
+        <activity android:name=".Room3b">
+        </activity>
+        <activity android:name=".Room3c">
+        </activity>
+        <activity android:name=".Room4">
+        </activity>
+        <activity android:name=".Room4a">
+        </activity>
+        <activity android:name=".Room4b">
+        </activity>
+        <activity android:name=".Room4c">
+        </activity>
+        <activity android:name=".Room5">
+        </activity>
+        <activity android:name=".Room5a">
+        </activity>
+        <activity android:name=".Room5b">
+        </activity>
+        <activity android:name=".Room5c">
+        </activity>
+        <activity android:name=".Room6">
+        </activity>
+        <activity android:name=".Room6a">
+        </activity>
+        <activity android:name=".Room6b">
+        </activity>
+        <activity android:name=".Room6c">
+        </activity>
+        <activity android:name=".Room7">
+        </activity>
+        <activity android:name=".Room7a">
+        </activity>
+        <activity android:name=".Room7b">
+        </activity>
+        <activity android:name=".Room7c">
+        </activity>
+        <activity android:name=".End1">
+        </activity>
+        <activity android:name=".End2">
+        </activity>
+        <activity android:name=".Op1">
+        </activity>
+        <activity android:name=".Op2">
+        </activity>
+        <activity android:name=".anthor">
+        </activity>
+        <activity android:name="MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.example.a52323.ycysztest.MainActivity"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>
